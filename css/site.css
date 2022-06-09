@@ -1,0 +1,368 @@
+﻿html {
+    background: #232946;
+    color: #b8c1ec;
+}
+
+body {
+    background: #232946;
+    color: #b8c1ec;
+}
+
+title {
+    color: #fffffe;
+}
+
+h1 {
+    color: #fffffe;
+}
+
+h2 {
+    color: #fffffe;
+}
+
+h3 {
+    color: #fffffe;
+}
+
+p {
+    color: #b8c1ec;
+}
+
+a {
+    color: #eebbc3;
+}
+
+code {
+    color: #E01A76;
+}
+
+.btn-primary {
+    color: #232946;
+    background-color: #eebbc3;
+    border-color: #eebbc3;
+    transition-duration: 0.4s;
+}
+
+    .btn-primary:hover {
+        background-color: #db929d;
+        color: whitesmoke;
+        border-color: #db929d;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    .btn-primary:focus {
+        background-color: #db929d;
+        color: #404a7a;
+        border-color: #db929d;
+        box-shadow: none;
+    }
+
+        /**
+ * Remove focus styles for non-keyboard focus.
+ */
+        .btn-primary:focus:not(:focus-visible) {
+            outline: 0;
+            box-shadow: none;
+        }
+    /**
+ * Cross-browser styles for explicit focus via 
+ * keyboard-based (eg Tab) navigation or the
+ * .focus-visible utility class.
+ */
+    .btn-primary:focus,
+    .focus-visible:focus:not(:focus-visible) {
+        outline: 0;
+        box-shadow: 0 0 0 .2rem #fff, 0 0 0 .35rem #069;
+    }
+
+
+.containerbody {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.mastercontainer {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+/* Este le da altura al container del "body-form" ---- es el que quiero evitar con altura*/
+.renderedbody {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 25px);
+}
+
+/* para centrar verticalmente el form */ 
+.containerlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 400px;
+    max-width: 500px;
+    padding: 40px 30px 20px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    border-radius: 5px;
+    transition: 0.3s;
+    background-color: #ffffff0d;
+}
+
+    .containerform:hover {
+        box-shadow: 0 16px 32px 0 rgba(0,0,0,0.8);
+    }
+
+.titleLogin {
+
+}
+
+.titlePassRecovery {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.form-email {
+    padding-bottom: 5px;
+}
+
+h4 {
+    color: #fffffe;
+    font-size: 0.8rem;
+    padding-bottom: 20px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.lineLogin {
+    margin-bottom: 24px;
+}
+
+.lineLow > .lineLogin {
+    width: 400px;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.form-pass {
+    padding-bottom: 5px;
+}
+
+.passTools {
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.checkbox {
+    padding-bottom: 20px;
+}
+
+.forgotPass {
+    margin-left: auto;
+    text-align: center;
+}
+
+.loginBtn {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.twoBtn {
+    display: flex;
+}
+
+.oneOfTwoBtn {
+    padding: 0px 15px;
+}
+
+.oneOfTwoBtn > .btn-primary {
+    padding: 5px 25px;
+    font-size: 1rem;
+}
+
+
+h5 {
+    color: #fffffe;
+    font-size: 1.2rem;
+    padding-top: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.forgotBtn {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.containerAdmin {
+    display: flex;
+    flex-direction: column;
+    min-width: 550px;
+    max-width: 700px;
+    min-height: 500px;
+    padding: 40px 30px 20px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    border-radius: 5px;
+    transition: 0.3s;
+    background-color: #ffffff0d;
+}
+
+    .containerAdmin:hover {
+        box-shadow: 0 16px 32px 0 rgba(0,0,0,0.8);
+    }
+
+.containerAppAccount {
+    margin: 0;
+}
+
+.noDisponible {
+    font-size: 1rem;
+}
+
+.formAdmin {
+    padding-bottom: 8px;
+}
+
+.nav-link {
+    padding: 0.5rem 0.5rem;
+    color: #fffffe;
+}
+
+    .nav-link:hover {
+        color: #b8c1ec;
+    }
+
+.nav-pills .nav-link.active {
+    background: #181b2d;
+}
+
+.btnAdmin {
+    padding-top: 12px;
+    padding-bottom: 20px;
+}
+
+.containerConfirma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 400px;
+    max-width: 500px;
+    padding: 40px 30px 20px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    border-radius: 5px;
+    transition: 0.3s;
+    background-color: #ffffff0d;
+}
+
+    .containerConfirma:hover {
+        box-shadow: 0 16px 32px 0 rgba(0,0,0,0.8);
+    }
+
+.titleConfirma {
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+
+.textConfirma {
+    font-size: 1.2rem;
+}
+
+.form-recovery {
+    padding-bottom: 8px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\
+for details on configuring this project to bundle and minify static web assets. */
+
+/*a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a {
+  color: #0077cc;
+}
+
+.form-control:focus {
+    border-color: #0077cc;
+    box-shadow: 0 0 0 0.2rem #0077cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.btn-link.nav-link:focus {
+  outline: black auto 1px;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  overflow: scroll;
+  white-space: nowrap;
+  line-height: 60px;
+}*/
